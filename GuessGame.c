@@ -10,6 +10,8 @@ void main()
     int a = 20, limit = 3, guess = 0, ran, userRand;
     char yn[2];
     bool odd = false, even = false;
+    
+    clrscr();
 
     srand(time(NULL));
     ran = rand() % a + 1;
